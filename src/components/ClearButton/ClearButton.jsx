@@ -2,7 +2,7 @@ import React from 'react'
 
 const ClearButton = () => {
     return (
-        <button>C</button>
+        <button className="aqua-button">C</button>
     )
 }
 

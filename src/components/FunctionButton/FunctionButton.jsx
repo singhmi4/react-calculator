@@ -2,7 +2,7 @@ import React from 'react'
 
 const FunctionButton = ({ buttonValue }) => {
     return (
-        <button>{buttonValue}</button>
+        <button className="function-button">{buttonValue}</button>
     )
 }
 

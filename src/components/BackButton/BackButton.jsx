@@ -2,7 +2,7 @@ import React from 'react'
 
 const BackButton = () => {
     return (
-        <button> &#8592; </button>
+        <button className="aqua-button"> &#8592; </button>
     )
 }
 

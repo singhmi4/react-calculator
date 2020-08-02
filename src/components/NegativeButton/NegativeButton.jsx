@@ -2,7 +2,7 @@ import React from 'react'
 
 const NegativeButton = () => {
     return (
-        <button>-/+</button>
+        <button className="aqua-button">-/+</button>
     )
 }
 
