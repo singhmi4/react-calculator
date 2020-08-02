@@ -9,25 +9,25 @@ const App = () => {
             <ClearButton />
             <BackButton />
             <NegativeButton />
-            <FunctionButton />
+            <FunctionButton buttonValue="/" />
             {/* Row 2 */}
-            <NumberButton />
-            <NumberButton />
-            <NumberButton />
-            <FunctionButton />
+            <NumberButton buttonValue={7} />
+            <NumberButton buttonValue={8} />
+            <NumberButton buttonValue={9} />
+            <FunctionButton buttonValue="*" />
             {/* Row 3 */}
-            <NumberButton />
-            <NumberButton />
-            <NumberButton />
-            <FunctionButton />
+            <NumberButton buttonValue={4} />
+            <NumberButton buttonValue={5} />
+            <NumberButton buttonValue={6} />
+            <FunctionButton buttonValue="-" />
             {/* Row 4 */}
-            <NumberButton />
-            <NumberButton />
-            <NumberButton />
-            <FunctionButton />
+            <NumberButton buttonValue={1} />
+            <NumberButton buttonValue={2} />
+            <NumberButton buttonValue={3} />
+            <FunctionButton buttonValue="+" />
             {/* Row 5 */}
-            <NumberButton />
-            <NumberButton />
+            <NumberButton buttonValue={0}/>
+            <NumberButton buttonValue="."/>
             <EqualButton />
 
 

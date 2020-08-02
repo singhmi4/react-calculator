@@ -1,8 +1,8 @@
 import React from 'react'
 
-const FunctionButton = () => {
+const FunctionButton = ({ buttonValue }) => {
     return (
-        <button>x</button>
+        <button>{buttonValue}</button>
     )
 }
 
