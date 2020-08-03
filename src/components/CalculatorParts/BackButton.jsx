@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { NumberContext } from '../NumberProvider'
 
 const BackButton = () => {
+    const { handleBackButton } = useContext(NumberContext)
     return (
-        <button className="aqua-button"> &#8592; </button>
+        <button className="aqua-button" onClick={() => handleBackButton() }> &#8592; </button>
     )
 }
 
