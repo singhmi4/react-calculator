@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 export const NumberContext = React.createContext();
 
@@ -63,11 +63,10 @@ const NumberProvider = (props) => {
 
   // handle calc function
   const handleSetCalcFunction = (type) => {
-    if (functionType) {
-      console.log("There is a function type");
-      performOperation();
-    }
-
+    //   Need to fix this in later update
+    // if (functionType) {
+    //     performOperation();
+    // }
     if (number) {
       setFunctionType(type);
       handleSetStoredValue();
@@ -129,6 +128,7 @@ const NumberProvider = (props) => {
           break;
       }
     }
+
     setNumber("");
     console.log("After:");
     debugConsoleDisplay();
